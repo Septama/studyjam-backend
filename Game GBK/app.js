@@ -1,6 +1,6 @@
 const readLine = require("readline").createInterface({
-    input: ProcessingInstruction.stdin,
-    output: ProcessingInstruction.stdout,
+    input: process.stdin,
+    output: process.stdout,
 });
 
 function randomChoice() {
